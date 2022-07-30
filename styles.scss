@@ -1,0 +1,118 @@
+body {
+   background-color: white;
+   margin: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: brown;
+   padding: 5px 100px;
+   color: white;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0px;
+   border-bottom: 1px solid black;
+}
+
+div {
+   padding: 30px 100px;
+}
+
+p {
+   background-color: lightgray;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 2px 0px;
+   display: inline-block;
+   margin-right: 10px;
+   font-size: small;
+}
+
+p.error {
+   outline: 2px solid rgb(148, 2, 2);
+}
+
+p.pass {
+   outline: 2px solid green;
+}
+
+p.list {
+   display: list-item;
+   width: 50%;
+}
+
+a:link {
+   text-decoration: none;
+   color: green;
+   font-weight: bold;
+}
+a:visited {
+   color: rgb(0, 56, 79);
+}
+
+input {
+   height: 30px;
+   width: 200px;
+   font-size: 18px;
+}
+
+button {
+   height: 37px;
+   display: inline-block;
+   width: 50px;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: lightgrey;
+   transition: .2s;
+
+}
+button:hover {
+   background-color: grey;
+   box-shadow: 0 2px 2px 0px;
+}
+
+#currency-table {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+#currency-table td,
+#currency-table th {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+#currency-table tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+#currency-table tr:hover {
+   background-color: #ddd;
+}
+
+#currency-table th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: brown;
+   color: white;
+}
+
+ul {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   outline: 1px solid brown;
+   width: max-content;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+ul li {
+   margin: 0 10px;
+}
